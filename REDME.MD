@@ -1,4 +1,21 @@
 # Hugging Pet - CH2-PS355
 Bangkit Academy 2023 Batch 2 Capstone Project (Product Base)
 
-pet owners to accurately and efficiently identify early symptoms of various diseases just by using their smartphone camera. But that's not all. We are committed to more than just disease detection. One such feature is the option to consult experienced veterinarians right at your fingertips.
+An app that revolutionizes pet healthcare by enabling quick disease identification in animals without clinic visits. using machine learning on curated animal disease and also facilitates remote consultations with veterinarians, bridging the gap between pet owners and healthcare experts
+
+#Background Problem
+1. 40% Professional Veterinarians 
+( less than 20.000 below the required 50,000 professional veterinarians )
+2. 60% of pet owners in Indonesia lack knowledge of proper pet care
+3. 40% of pets in Indonesia experience health issues due to various factors
+
+#What is the impact?
+The impact of the background problem outlined in the provided information is significant and encompasses various aspects of pet healthcare in Indonesia.
+
+#Machine Learning
+https://github.com/WahidRadikalAkhlak/BangkitHuggingPet/blob/6ba67852534663536568c33a5f27dca271415d4f/aset/petcat.jpg
+https://github.com/WahidRadikalAkhlak/BangkitHuggingPet/blob/6ba67852534663536568c33a5f27dca271415d4f/aset/tes.jpg
+
+#Cloud Computing
+
+#Mobile Development
