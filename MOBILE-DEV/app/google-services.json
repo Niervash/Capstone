@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "606207810212",
+    "firebase_url": "https://huggingpet-ead81-default-rtdb.firebaseio.com",
+    "project_id": "huggingpet-ead81",
+    "storage_bucket": "huggingpet-ead81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606207810212:android:4eac9207d201213a162431",
+        "android_client_info": {
+          "package_name": "com.bangkit.huggingpet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiUrEF4FX10qJbO4o8D7F2g8J4Kb9BiTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeActivity"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/appbar"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/appbar"
+        />
+
+    <ImageView
+        android:id="@+id/logoappbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"
+        />
+    <ImageView
+        android:id="@+id/ivprofile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="350dp"
+        android:src="@drawable/baseline_account_circle_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_consult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appbar">
+
+        <ImageView
+            android:layout_width="327dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/consult_view"
+            />
+
+        <TextView
+            android:id="@+id/tv_consult"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/consult_with_veterinarian"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="60dp"/>
+
+        <Button
+            android:id="@+id/chatnow"
+            android:layout_below="@+id/tv_consult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_now"
+            android:fontFamily="@font/poppins_medium"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="3dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_disease"
+        android:layout_below="@id/layout_consult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/img_disease"
+            android:layout_width="327dp"
+            android:layout_height="159dp"
+            android:background="@drawable/disease_view"/>
+
+        <TextView
+            android:id="@+id/tv_disease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_pet_disease"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/tv_explain_disease"
+            android:layout_below="@id/tv_disease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_to_know"
+            android:textSize="12sp"
+            android:layout_marginTop="-8dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/scanpet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_explain_disease"
+            android:layout_alignEnd="@+id/img_disease"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="17dp"
+            android:backgroundTint="@color/secondaryColor"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/scan_now" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_clinic"
+        android:layout_below="@id/layout_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="327dp"
+            android:layout_height="159dp"
+            android:background="@drawable/clinic_view"/>
+
+        <TextView
+            android:id="@+id/tv_clinic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/veterinary_clinic"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/tv_explain_clinic"
+            android:layout_below="@id/tv_clinic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_nearest_veterinary"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="-8dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/findclinic"
+            android:layout_below="@+id/tv_explain_clinic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_now"
+            android:fontFamily="@font/poppins_medium"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_article"
+        android:layout_below="@id/layout_clinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/img_article"
+            android:layout_width="327dp"
+            android:layout_height="159dp"
+            android:background="@drawable/article_view"/>
+
+        <TextView
+            android:id="@+id/tv_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pet_articles"
+            android:textSize="26sp"
+            android:layout_alignEnd="@id/img_article"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/tv_explain_article"
+            android:layout_below="@id/tv_article"
+            android:layout_width="175dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="@string/the_nearest_veterinary"
+            android:textSize="12sp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignEnd="@id/img_article"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="-8dp"/>
+
+        <Button
+            android:id="@+id/petarticle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_explain_article"
+            android:layout_alignEnd="@+id/img_article"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="17dp"
+            android:backgroundTint="@color/secondaryColor"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/see_now" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>

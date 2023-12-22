@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolBarStyle" parent="ToolBarStyle.Base" />
+    <style name="ToolBarStyle.Base" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/Theme.Material3.DayNight</item>
+    </style>
+
+    <style name="huggingpet">
+        <item name="android:textSize">26.12sp</item>
+        <item name="android:textColor">#552F01</item>
+    </style>
+
+    <style name="ProgressBarStyle">ProgressBar</style>
+
+    <style name="rounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">HuggingPet</string>
+    //login
+    <string name="login_desc">Welcome To HuggingPet</string>
+    <string name="pass">Password</string>
+    <string name="deskLogin">Login</string>
+
+    <string name="email">Enter your email</string>
+    <string name="emailFormatWrong">Wrong email format</string>
+    <string name="emailTaken">The email you entered is already registered, please change your email</string>
+    <string name="failedRegist">Registration failed, please try again</string>
+
+    <string name="passwordhint">Enter your password</string>
+    <string name="passwordConfirm">Confirm your password</string>
+    <string name="passwordVisible">Show Password</string>
+    <string name="passwordLess">Password must be at least 8 characters</string>
+    <string name="passwordNotMatch">Passwords don\'t match</string>
+    <string name="passwordAccountWrong">The password you entered is incorrect</string>
+
+    <string name="tvLogin">Login</string>
+    <string name="login_button">Login</string>
+    <string name="invalidLogin">Enter your account data correctly!</string>
+    <string name="registHeader">Register Your Account</string>
+    <string name="register">Don\'t have an account yet?</string>
+    <string name="register_button">Register</string>
+    <string name="registerCreate">Create Account</string>
+    <string name="google">Login with</string>
+    <string name="name">Enter your name</string>
+    <string name="signingoogle">Sign In With</string>
+    <string name="passwordsame">Enter your password confirmation</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_consultation">Consultation</string>
+    <string name="title_article">Article</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">Logo Image</string>
+    <string name="createAccount">Create Account</string>
+    <string name="accountSuccessCreated">Account successfully created</string>
+    <string name="nameNone">Please fill your name</string>
+    <string name="emailNone">Please fill your e-mail\n</string>
+    <string name="passwordNone">Please fill your password</string>
+    <string name="passwordConfirmNone">Please fill your password confirmation</string>
+    <string name="consult_with_veterinarian">Consult with Veterinarian</string>
+    <string name="chat_now">Chat Now</string>
+    <string name="scan_pet_disease">Scan Pet Disease</string>
+    <string name="get_to_know">Get to know with your pet disease</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="veterinary_clinic">Veterinary Clinic</string>
+    <string name="the_nearest_veterinary">Let\'s find the nearest veterinary clinic for you</string>
+    <string name="find_now">Find Now</string>
+    <string name="pet_articles">Pet Articles</string>
+    <string name="huggingpet">HuggingPet</string>
+    <string name="admin_article">Companion Pet</string>
+    <string name="title">Pet Diseases</string>
+    <string name="cameraChoose">Camera</string>
+    <string name="descriptionStory">Description</string>
+    <string name="galleryChoose">Gallery</string>
+    <string name="btnScan">SCAN</string>
+    <string name="scan_by">Scan By</string>
+    <string name="description">Description</string>
+    <string name="image">Image</string>
+    <string name="result">Result :</string>
+    <string name="disease_result">Your Pet Disease Result</string>
+    <string name="package_name">com.bangkit.huggingpet</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="see_now">See Now</string>
+    <string name="logout">Logout</string>
+    <string name="logoutDescription">Are you sure wan\'t to Logout?</string>
+    <string name="cancelLogout">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="SuccessLogout">Logged Out Succdsfully</string>
+
+
+    <string name="send_success">Berhasil terkirim</string>
+    <string name="send_error">Gagal terkirim</string>
+    <string name="nameprofile">Your Name</string>
+    <string name="timeout">Try Again</string>
+    <string name="upload_failed">Upload Failed</string>
+    <string name="upload_success">Upload Success</string>
+    <string name="error_upload">Error Upload</string>
+    <string name="scanpet">Scan Pet</string>
+</resources>

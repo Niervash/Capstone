@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/secondaryLightColor">
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryLightColor"
+    android:layout_margin="20dp">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="845dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/logohuggingpet"
+        android:layout_width="207dp"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/logohuggingpet"
+        android:text="@string/login_desc"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:layout_alignParentTop="@+id/rectangle"
+        app:fontFamily="@font/poppins_bold" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_login"
+        android:layout_centerHorizontal="true"
+        app:fontFamily="@font/poppins_bold"
+        android:textColor="@color/secondaryColor"
+        android:text="@string/deskLogin"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvLogin"
+        android:hint="@string/email"
+        app:boxBackgroundColor="@color/white"
+        android:textColorHint="@color/primaryDarkColor"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp">
+
+        <com.bangkit.huggingpet.customeview.EmailCV
+            android:padding="12dp"
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins_medium"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/layout_email"
+        android:hint="@string/passwordhint"
+        android:textColorHint="@color/primaryDarkColor"
+        app:boxBackgroundColor="@color/white"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp">
+
+        <com.bangkit.huggingpet.customeview.PasswordCV
+            android:padding="12dp"
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins_medium"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+    android:id="@+id/btn_login"
+    android:layout_width="300dp"
+    android:layout_height="55dp"
+    app:backgroundTint="@color/secondaryColor"
+    android:text="@string/login_button"
+    android:textColor="@color/white"
+    android:layout_below="@id/layout_password"
+    android:fontFamily="@font/poppins_bold"
+    android:layout_marginTop="20dp"
+    android:textSize="20sp"
+    android:layout_centerHorizontal="true"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+    android:id="@+id/tv_signup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btn_login"
+    android:layout_centerHorizontal="true"
+    android:fontFamily="@font/poppins_medium"
+    android:layout_marginTop="20dp"
+    android:text="@string/register_button"
+        app:fontFamily="@font/poppins_bold"
+        android:textSize="20sp"
+    android:textColor="@color/secondaryColor" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/login_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/google"
+        app:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btngoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_with"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+</ScrollView>

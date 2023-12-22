@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HuggingPet" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/secondaryColor</item>
+        <item name="colorPrimaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/secondaryColor</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/secondaryColor</item>
+    </style>
+    <style name="recyclerView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbarSize">0dp</item>
+    </style>
+    <style name="Theme.HuggingPet" parent="Base.Theme.HuggingPet" />
+
+</resources>
