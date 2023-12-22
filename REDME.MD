@@ -13,8 +13,9 @@ An app that revolutionizes pet healthcare by enabling quick disease identificati
 The impact of the background problem outlined in the provided information is significant and encompasses various aspects of pet healthcare in Indonesia.
 
 #Machine Learning
-https://github.com/WahidRadikalAkhlak/BangkitHuggingPet/blob/6ba67852534663536568c33a5f27dca271415d4f/aset/petcat.jpg
-https://github.com/WahidRadikalAkhlak/BangkitHuggingPet/blob/6ba67852534663536568c33a5f27dca271415d4f/aset/tes.jpg
+
+
+
 
 #Cloud Computing
 
